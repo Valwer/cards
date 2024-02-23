@@ -1,0 +1,79 @@
+* {
+    /* permet d'enlever les margins */
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to right, black, red);
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title{
+text-align: center;
+color: rgb(201, 192, 192);
+font-family: "Creepster", system-ui;
+font-size: 100px;
+}
+
+/* CARD  */
+
+.card {
+    overflow: hidden;
+    background-color: #FFF;
+    margin: 1rem;
+    font-family: "Creepster", system-ui;
+    width: 22rem;
+    border-radius: 1.5rem;
+    color: #666;
+}
+
+.card-header {
+    height: 16rem;
+    text-align: center;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.card-body {
+    height: 14rem;
+    padding: 4rem;
+    
+}
+
+.card-body h1{
+    
+    font-size: .8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+
+.card-body h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.card-body p{
+    letter-spacing: 1px;
+}
+
+.gold {
+    color: #ddd;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
